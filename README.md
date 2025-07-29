@@ -1,1 +1,1 @@
-# KIMe_VLA_Tutorial
+# KIMe VLA(Vision-Language-Action Model) Tutorial
