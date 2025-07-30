@@ -61,8 +61,10 @@ with gr.Blocks() as gradio_app:
     # 예제 제공
     gr.Examples(
         examples=[
-            ["Place the red vegetable in the silver pot.", "bridge_orig", "./KIMe_OpenVLA/images/example1.jpeg"],
-            ["Pick up the remote", "bridge_orig", "./KIMe_OpenVLA/images/example2.jpeg"]
+            # ["Place the red vegetable in the silver pot.", "bridge_orig", "./OpenVLA_Tutorial/images/example1.jpeg"],
+            # ["Pick up the remote.", "bridge_orig", "./OpenVLA_Tutorial/images/example2.jpeg"]
+            ["Place the red vegetable in the silver pot.", "bridge_orig", "OpenVLA_Tutorial/images/example1.jpeg"],
+            ["Pick up the remote.", "bridge_orig", "OpenVLA_Tutorial/images/example2.jpeg"]
         ],
         inputs=[instruction_input, unnorm_key_input, image_input]
     )

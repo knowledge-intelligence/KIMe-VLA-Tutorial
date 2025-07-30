@@ -4,5 +4,12 @@
     ],
     "python.autoComplete.extraPaths": [
         "./openvla"
+    ],
+    "python-envs.pythonProjects": [
+        {
+            "path": "",
+            "envManager": "ms-python.python:conda",
+            "packageManager": "ms-python.python:conda"
+        }
     ]
 }
